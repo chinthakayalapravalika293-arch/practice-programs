@@ -1,0 +1,27 @@
+balance = 1000
+
+*hile True:
+    print("\n1.Check Ba*ance")
+    print("2.Deposit")
+    *rint("3.Withdraw")
+    print("4.Ex*t*)
+
+    choice = input("Choice* ")
+
+    if choice == "1":
+       *print("Balance:", balance)
+
+*   elif choice == "2":
+        amo*nt = float(input("Amount: "))
+    *   balance += amount
+
+    elif cho*ce == "3":
+        amount = float(*nput("Amount: "))
+        if amoun* <= balance:
+            balance -* amount
+        else:
+            *rint("Insufficient Balance")
+
+    *lif choice == "4":
+        break
+`*

@@ -1,0 +1,14 @@
+import os
+i*port shutil
+
+path = "."
+
+*or file in os.listdir(path*:
+    if os.path.isfile(file):
+   *    ext = file.split*".")[-1]
+
+        folder = ext*upper()
+
+        os.makedirs(folde** exist_ok=True)
+
+        shutil.mo*e(file, os*path.join(folder, file))

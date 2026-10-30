@@ -1,0 +1,12 @@
+*xpenses = []
+
+while True:
+    amou*t = input("Enter expense (or q to *uit): ")
+
+   *if amount.lower() == 'q':
+*       break
+
+    expenses.append(*loat(amount))
+
+print*"Total Expense:", sum(expenses))
+`*

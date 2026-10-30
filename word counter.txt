@@ -1,0 +1,5 @@
+sentence = in*ut("Enter*sentence: ")
+
+words = sentence.spl*t()
+
+print("Word Count:", len(word*))

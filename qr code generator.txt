@@ -1,0 +1,8 @@
+import qrcode
+
+data = input("Ente* URL*Text: ")
+
+img*= qrcode.make(data)
+img.save("q*code.png")
+
+print("QR Code Saved*)
